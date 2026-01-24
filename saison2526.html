@@ -3,38 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="page-scale-up">
 
-    <ul class="navbar">
+    <!--imports-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="slideshow.css">
+    <!----------->
+</head>
+<body class="page-scale-up"> <!--animista animation beim öfnnen-->
+
+    <ul class="navbar"> <!--navigationsleiste oben(auf jeder seite)-->
         <li><a href="team.html" class="navbartxt">Team</a></li>
         <li><a href="index.html" class="letsrobottxt">Let's Robot</a></li>
         <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn navbartxt active">Saison</a>
-            <div class="dropdown-content">
+            <a href="javascript:void(0)" class="dropbtn navbartxt active">Saison</a> <!--class="active" macht den hintergrund des textes in einer anderen farbe bei diesem element-->
+            <div class="dropdown-content"> <!--dropdown menü für saison auswahl-->
                 <a href="saison2425.html">Saison 24/25</a>
                 <a href="saison2526.html">Saison 25/26</a>
             </div>
         </li>
     </ul>
 
-    <div class="container">
+    <div class="container"> <!--hautpild ganz oben der seite + text in der mitte-->
         <img src="pictures/123.jpg" style="width: 100%; height: auto;">
         <div class="centered">
             <p class="headus tracking-in-expand">Saison 25/26<br>Unearthed</p>
         </div>
     </div>
 
-    <div class="text">
+    <div class="text"> <!--class für den weißen text-->
 
-        <div class="event-block">
-            <p class="text-head">1. Bewerb in Hollabrunn</p>
-            <p class="event-meta">16.1.2026</p>
-            <p>
+        <div class="event-block"> <!--event block = abschnitt für den jeweiligen bewerb-->
+            <p class="text-head">1. Bewerb in Hollabrunn</p> <!--1. überschrift-->
+            <p class="event-meta">16.1.2026</p> <!--dann kleiner text drunter (datum des bewerbs)-->
+            <p> <!--3. info text-->
 
             </p>
-            <div class="event-gallery">
+            <div class="event-gallery"> <!--event gallery sind die bilder jeweils 3 + tilt card für den effekt-->
                 <div class="tilt-card">
                     <img src="pictures/.jpeg">
                 </div>
@@ -93,7 +98,7 @@
 
 <!--
         <div class="event-block">
-            <p class="text-head">4. Bewerb in Griechenland</p>
+            <p class="text-head">4. Bewerb in Griechenland</p>              ----------theorethischer internationalbewerb text muss noch geändert werden----------
             <p class="event-meta">World Festival</p>
             <p>
                 50 der besten Mannschaften aus aller Welt<br>
@@ -119,7 +124,7 @@
     <p style="text-align: center; font-size: 4rem; font-weight: bold; color: red;">In dieser Saison hat noch kein Bewerb stattgefunden</p>
     </div>
 
-    <script src="index.js"></script>
+    <script src="script.js"></script> <!-- importiert die js funktionen ist ganz unten am besten-->
 
 </body>
 </html>
