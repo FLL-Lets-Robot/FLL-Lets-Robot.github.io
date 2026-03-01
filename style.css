@@ -84,6 +84,15 @@ ul.navbar > li.nav-right {
   align-items: center;
 }
 
+ul.navbar > li.nav-left {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
 
 /* ------------------------------dropdown menu navbar------------------------------ */
 
