@@ -257,7 +257,11 @@ ul.navbar>li.nav-left {
 
   .mobile-bar {
     display: flex;
+<<<<<<< HEAD
     position: sticky;
+=======
+    position: fixed;
+>>>>>>> 89dc4e8fb7afd47b796b9a228c8c9a167f9b8545
     top: 0;
     width: 100%;
     height: 60px;
@@ -273,7 +277,11 @@ ul.navbar>li.nav-left {
     flex-direction: column;
     align-items: center;
     padding-right: 0;
+<<<<<<< HEAD
     position: sticky;
+=======
+    position: fixed;
+>>>>>>> 89dc4e8fb7afd47b796b9a228c8c9a167f9b8545
     top: 60px;
     left: 0;
     width: 100%;
@@ -287,6 +295,7 @@ ul.navbar>li.nav-left {
   ul.navbar > li.nav-right {
     display: none;
   }
+<<<<<<< HEAD
 
   .welcometxt {
     font-size: 2rem;
@@ -304,6 +313,8 @@ ul.navbar>li.nav-left {
     font-size: 11vw !important;
     font-weight: bold;
   }
+=======
+>>>>>>> 89dc4e8fb7afd47b796b9a228c8c9a167f9b8545
 }
 
 .tilt-card {
