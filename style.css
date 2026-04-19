@@ -18,6 +18,14 @@
 
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  --hr-line-offset: 25%;
+  --hr-color: white;
+  background-color: #05061A;
+}
+
 /* ------------------------------Define font styles------------------------------ */
 
 .letsrobottxt {
@@ -34,16 +42,6 @@
   font-size: 3rem;
   color: white;
   text-align: center;
-}
-
-/* ------------------------------allgemein------------------------------ */
-
-body {
-  margin: 0;
-  padding: 0;
-  --hr-line-offset: 25%;
-  --hr-color: white;
-  background-color: #05061A;
 }
 
 /* ------------------------------navbar------------------------------ */
@@ -287,7 +285,7 @@ ul.navbar>li.nav-left {
     display: flex;
   }
 
-  ul.navbar > li.nav-right {
+  ul.navbar>li.nav-right {
     display: none;
   }
 
@@ -380,3 +378,8 @@ ul.navbar>li.nav-left {
       var(--hr-color) calc(50% + var(--hr-line-offset)),
       transparent);
 }
+
+/* ------------------------------ make img big on click ------------------------------ */
+
+
+/* © 2025 - 2026 Placht P. of the FLL Team Let's Robot */
